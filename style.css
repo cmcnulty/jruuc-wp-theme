@@ -1,0 +1,57 @@
+/*
+ Theme Name:   JRUUC child-theme to UUA
+ Theme URI:    https://jruuc.org
+ Description:  Twenty Fifteen Child Theme
+ Author:       Charles McNulty
+ Author URI:   https://jruuc.org
+ Template:     uua-congregation
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild
+*/
+
+body.jruuc-east-breeze ul.display-posts-listing > .listing-item > .title {
+	display: none;
+}
+
+section.affiliation-logos {
+	display: none;
+}
+
+.navbar-brand img {
+  float: none;
+  display: inline-block;
+}
+
+.site-title {
+	display: inline-block;
+}
+
+.logo-area {
+  text-align: center;
+}
+
+body.share-the-plate #main > ul.display-posts-listing > li.listing-item > a.title {
+    display:none;
+}
+
+/* push the upcoming services a little so that it breaks on the word on mobile view */
+body.grey-red .upcomingservice_widget ul li a {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	.navbar-brand img {
+	  float: left;
+	  display: block;
+	}
+	
+	.logo-area {
+		text-align: initial;
+	}
+
+}
