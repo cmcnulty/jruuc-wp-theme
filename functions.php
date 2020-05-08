@@ -135,7 +135,7 @@ EOT;
 		$messages[$service_timestamp] = $message;
 	};
 
-	ksort($messages);
+	krsort($messages);
 
 	// Output needs to be return
 	$message = $list_start . implode( '', $messages ) . '</ul>';
