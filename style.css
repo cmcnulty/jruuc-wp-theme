@@ -49,9 +49,13 @@ body.grey-red .upcomingservice_widget ul li a {
 	  float: left;
 	  display: block;
 	}
-	
+
 	.logo-area {
 		text-align: initial;
 	}
 
+}
+
+li.uu_topic > .topic_header {
+	font-weight: bold;
 }
