@@ -66,13 +66,13 @@ li.uu_topic > .topic_header {
 }
 
 .jruuc-social-media {
-	flex-flow: row-reverse !important;
+	flex-flow: row !important;
 }
 
 /* Stack footers in smaller view */
 @media only screen and (min-width: 768px) {
 	.jruuc-social-media {
-		flex-flow: row !important;
+		flex-flow: row-reverse !important;
 	}
 	.jruuc-uua-links {
 		text-align: right
