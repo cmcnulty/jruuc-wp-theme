@@ -70,7 +70,7 @@ li.uu_topic > .topic_header {
 }
 
 /* Stack footers in smaller view */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 	.jruuc-social-media {
 		flex-flow: row-reverse !important;
 	}
