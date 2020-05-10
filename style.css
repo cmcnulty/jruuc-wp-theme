@@ -60,12 +60,22 @@ li.uu_topic > .topic_header {
 
 }
 
+.jruuc-uua-links {
+	padding-top: 10px;
+	text-align: left;
+}
+
+.jruuc-social-media {
+	flex-flow: row-reverse !important;
+}
+
 /* Stack footers in smaller view */
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 768px) {
 	.jruuc-social-media {
 		flex-flow: row !important;
 	}
 	.jruuc-uua-links {
-		text-align: left !important;
+		text-align: right
+
 	}
 }
