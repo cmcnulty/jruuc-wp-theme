@@ -43,6 +43,10 @@ body.grey-red .upcomingservice_widget ul li a {
 	padding-right: 3px;
 }
 
+li.uu_topic > .topic_header {
+	font-weight: bold;
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
 	.navbar-brand img {
@@ -56,6 +60,12 @@ body.grey-red .upcomingservice_widget ul li a {
 
 }
 
-li.uu_topic > .topic_header {
-	font-weight: bold;
+/* Stack footers in smaller view */
+@media only screen and (min-width: 450px) {
+	.jruuc-social-media {
+		flex-flow: row !important;
+	}
+	.jruuc-uua-links {
+		text-align: left !important;
+	}
 }
