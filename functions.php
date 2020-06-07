@@ -38,7 +38,7 @@ add_filter( 'the_title', 'add_audio_icon', 10, 2 );
 
 add_filter('widget_posts_args','modify_widget');
 function modify_widget() {
-	$r = array( 'category__not_in' =>  array( 183 ));
+	$r = array( 'category__not_in' =>  array( 183, 218 ));
 	return $r;
 }
 
